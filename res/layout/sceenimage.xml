@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@*android:drawable/toast_frame"
+    >
+        <ImageView
+            android:id="@+id/ssimage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            />
+        <TextView
+            android:id="@+id/locimage"
+            android:textAppearance="@android:style/TextAppearance.Small"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@*android:color/bright_foreground_dark"
+            android:shadowColor="#BB000000"
+            android:shadowRadius="2.75"
+        />
+</LinearLayout>
