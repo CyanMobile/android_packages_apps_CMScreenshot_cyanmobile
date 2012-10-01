@@ -94,12 +94,6 @@ public class ScreenshotActivity extends Activity
             finish();
         }
 
-        if ("0".equals(SystemProperties.get("ro.squadzone.build", "0"))) {
-            Toast toast = Toast.makeText(ScreenshotActivity.this, getString(R.string.not_squadzone), Toast.LENGTH_LONG);
-            toast.show();
-            finish();
-        }
-
         mToast = new Toast(ScreenshotActivity.this);
         LayoutInflater inflater = (LayoutInflater) this.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
         mView = inflater.inflate(R.layout.sceenimage, null);
